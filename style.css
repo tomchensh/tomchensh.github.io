@@ -7,6 +7,7 @@ body {
   color: #333;
 }
 
+/* Header section */
 header {
   background: #00204E;
   color: #fff;
@@ -28,12 +29,39 @@ nav a:hover {
   text-decoration: underline;
 }
 
-main {
-  padding: 20px;
-  max-width: 800px;
+/* ====== Main layout ====== */
+main.intro-section {
+  display: flex;              /* places photo + text side by side */
+  align-items: flex-start;    /* align items from the top */
+  justify-content: center;    /* center everything horizontally */
+  gap: 30px;                  /* space between photo and text */
+  padding: 40px 20px;
+  max-width: 900px;
   margin: auto;
 }
 
+/* Photo section */
+.photo img {
+  width: 200px;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+/* Bio section */
+.bio {
+  flex: 1;                    /* bio takes up remaining space */
+}
+
+.bio h2 {
+  margin-top: 0;
+}
+
+.bio ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Footer */
 footer {
   background: #f4f4f4;
   text-align: center;
