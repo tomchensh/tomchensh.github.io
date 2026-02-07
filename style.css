@@ -148,3 +148,43 @@ footer {
 .social-icons a:hover img {
   opacity: 1;
 }
+
+.education-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.education-item h2 {
+  margin-bottom: 8px;
+}
+
+.education-item p {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 1.05rem;
+}
+
+.education-item a {
+  color: #000;
+  text-decoration: none;
+}
+
+.education-item a:hover {
+  text-decoration: underline;
+}
+
+.education-item h3 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.education-details {
+  padding-left: 20px;
+}
+
+.education-details li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
