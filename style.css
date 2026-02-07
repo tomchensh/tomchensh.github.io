@@ -72,7 +72,8 @@ footer {
 
 .intro-section {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
+  align-items: center;
   gap: 24px;
 }
 
@@ -91,7 +92,7 @@ footer {
   }
 
   .profile-container {
-    align-items: center;
+    align-self: flex-start;
   }
 }
 
