@@ -88,7 +88,7 @@ footer {
   gap: 16px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1023px) {
   .intro-section {
     flex-direction: row;
     align-items: flex-start;
@@ -96,7 +96,12 @@ footer {
   }
 
   .profile-container {
-    align-self: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
   }
 }
 
