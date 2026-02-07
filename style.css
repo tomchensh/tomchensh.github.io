@@ -61,7 +61,6 @@ main.intro-section {
   padding-left: 20px;
 }
 
-/* Footer */
 footer {
   background: #f4f4f4;
   text-align: center;
@@ -75,6 +74,24 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .intro-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+  }
+
+  .profile-container {
+    align-items: center;
+  }
+}
+
+.profile-photo {
+  width: 150px;
+  border: 2px solid #000;
 }
 
 .social-icons {
