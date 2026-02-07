@@ -86,7 +86,7 @@ footer {
 
 @media (min-width: 768px) {
   .intro-section {
-    display: flex;
+    flex-direction: row;
     align-items: flex-start;
     gap: 48px;
   }
